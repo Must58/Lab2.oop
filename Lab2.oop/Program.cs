@@ -33,10 +33,10 @@ namespace Lab2.oop
             Console.WriteLine("The brand of Car: " + c.brand);
             Console.WriteLine("The model Name of Car: " + c.modelName);
             Truck t = new Truck();
-            c.brand = "Scania";
-            c.modelName = "770s";
-            Console.WriteLine("The brand of Truck: " + c.brand);
-            Console.WriteLine("The model Name of Truck: " + c.modelName);
+            t.brand = "Scania";
+            t.modelName = "770s";
+            Console.WriteLine("The brand of Truck: " + t.brand);
+            Console.WriteLine("The model Name of Truck: " + t.modelName);
             Console.ReadLine();
         }
 }}
